@@ -1,0 +1,150 @@
+<html>
+    <body>
+        <!--User story #1 requirement-->
+<h1 id="title">
+    Survey
+  </h1>
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <!--Font Google Link-->
+  <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+  
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Major+Mono+Display" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Cutive+Mono" rel="stylesheet">
+  
+  <div class="container"> 
+    
+  <!--User story #2 requirement-->
+  <h2 id="description">
+    Let us know how we can improve FreeCodeCamp
+  
+    <p><h6> *Required Field</p></h6></h2>
+  
+  <!--User story #3 requirement-->
+  <p><div id="borders">
+  <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+  <h3>
+    <div class="rowTab">
+        <div class="labels">
+          <label id="name-label" for="name"><h7>*
+   
+  <!--Name submission required-->
+  </h7>Name: <form action="Name">
+  <input type="text" required class="input-field" placeholder="Enter your name here.">
+  </h3>
+  </p>
+  </div>
+      
+  <!--Email submission required-->
+  <div id="borders">
+  <h4>
+    <div class="rowTab">
+        <div class="labels">
+          <label id="email-label" for="email"><h7>*</h7>
+            
+  <!--Userstory #6 requirement-->  
+  Email: <form action="Email"><input type="email" name="email" id="email" class="input-field"required placeholder="Enter your email here.">
+  </h4>
+  </div>
+            
+  <!--Userstory #6 submission requirement-->
+  <div id="borders"> 
+  <h5>
+    <div class="rightTab">
+        <div class="labels">
+          <label id="age-label" for="age"><h7>*</h7>
+            
+  <!--Userstory #7, #8, #9 submission requirement-->
+    Age: <form action="Age">
+  <input type="number" name="age" id="number" min="1" max="110" class="input-field" required placeholder="Age">
+  </h5>
+  </div>
+            
+  <!--Userstory was met with the Name, Email, and Age holder-->
+  <div id="borders">
+  <h8>
+  <div class="rowTab">
+    <div class="labels">
+          <label>Which option best describes your current role?</label>
+    </div>
+    <h11><select name="currentPos" class="dropdown">
+    <option disabled value>Select an Option</option>
+    <option value="Student">Student</option>
+    <option value="Full Time Job">Full-Time Job</option>
+    <option value="Full Time Learner">Full-Time Learner</option>
+    <option value="Prefer Not to Say">Prefer Not to Say</option>
+      </select></h11>
+    </h8></div></div>
+  
+  <!--Recommended?-->
+  <div id="borders">
+  <div class="rowTab">
+  <h10><div class="labels">
+        <label for="recommend">Would you recommend freeCodeCamp to a friend?</label></div></h10>
+      <h9><div class="rightTab">
+        <ul style="list-style: none;"><li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+            <li class="radio"><label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+            <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+  
+  <!--What do you like most in FCC-->  
+  <div id="borders">
+  <h8>
+  <div class="rowTab">
+    <div class="labels">
+          <label>What do you like most in FCC?</label>
+    </div>
+    <h11><select name="likeMost" class="dropdown">
+    <option disabled value>Select an Option</option>
+    <option value="Challenges">Challenges</option>
+    <option value="Projects">Projects</option>
+    <option value="Community">Community</option>
+    <option value="Open Source">Open Source</option>
+      </select></h11>
+    </h8></div></div>
+    
+    <!--Things that Should be improved in the future-->
+  <div id="borders">
+  <div class="rowTab">
+  <h10><div class="labels">
+        <p><label for="recommend">Things that should be improved in the future.<br>(Check all that apply)</label></div></h10></p>
+      <h9><div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
+            <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
+  <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Challengess</label></li>
+  <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Open Source Community</label></li>
+   <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Gitter Help Rooms</label></li>
+  <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Videos</label></li>
+  <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">City Meetups</label></li>
+  <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Wiki</label></li>
+  <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Forum</label></li>
+  <li class="checkbox"><label><input name="prefer" value="12" type="checkbox" class="userRatings">Additional Courses</label></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+  
+  <!--Comment Box-->
+    <div id="borders">
+    <div class="rowTab">
+      <h12> <label for="comments">Any Comments or Suggestions?</label></h12>
+        <textarea class="comments" class="imput-feild" style="height: 50px; resize; vertical;" placeholder="Enter your comment here."></textarea></div>
+      </div>
+  <button id="submit" type="submit">Submit</button>
+    </form>
+      </div>
+    </body>
+</html>
